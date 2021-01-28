@@ -1,12 +1,15 @@
 import React from 'react';
-import { MenuIteam } from '../../components/menu-item/menu-item';
+import Directory from '../../components/directory/directory';
+import MenuIteam  from '../../components/menu-item/menu-item';
 import './homepage.styles.scss';
 
-export const HomePage = () => {
+ const HomePage = ({history}) => {
   return (
     <div className='homepage'>
-    <MenuIteam />
+   <Directory history={history} />
 </div>
-  )
+  );
 
 }
+
+export default HomePage;
