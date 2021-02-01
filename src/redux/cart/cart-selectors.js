@@ -1,6 +1,5 @@
-import { createSelectorHook } from 'react-redux';
 import { createSelector } from 'reselect';
-import CartItem from '../../components/cart-item/cart-item';
+
 
 const selectCart = state => state.cart;
 
