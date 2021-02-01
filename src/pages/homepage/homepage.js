@@ -1,12 +1,11 @@
 import React from 'react';
 import Directory from '../../components/directory/directory';
-import MenuIteam  from '../../components/menu-item/menu-item';
 import './homepage.styles.scss';
 
- const HomePage = ({history}) => {
+ const HomePage = () => {
   return (
     <div className='homepage'>
-   <Directory history={history} />
+   <Directory />
 </div>
   );
 

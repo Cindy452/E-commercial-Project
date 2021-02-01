@@ -19,7 +19,7 @@ const CartDropdown = ({cartItems, history, dispatch}) => (
     }
     </div>
   <CustomButton 
-  onClick={() => {history.push('./checkout');
+  onClick={() => {history.push('/checkout');
   dispatch(toggleCartHidden());}}>
   Go to checkout
   </CustomButton>
